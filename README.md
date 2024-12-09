@@ -16,6 +16,7 @@ PyML is a domain-specific language (DSL) designed to simplify common machine lea
   - [Feature Engineering](#feature-engineering)
   - [Plotting](#plotting)
   - [Column Descriptions and Types](#column-descriptions-and-types)
+  - [Examples for Functions with Parameters](#examples-for-functions-with-parameters)
 - [Testing Suite](#testing-suite)
 - [Potential Future Additions](#potential-future-additions)
 
@@ -179,6 +180,45 @@ type ["OverallQual", "YearBuilt"]
 **Explanation**:
 - Provides statistical descriptions for specified columns.
 - Prints the data types of the specified columns.
+
+### Examples for Functions with Parameters
+
+#### Handling Missing Values
+
+```plaintext
+missing fill 0
+missing drop
+missing mean
+```
+
+**Explanation**:
+- `missing fill 0`: Replaces all missing values with `0`.
+- `missing drop`: Removes rows with missing values.
+- `missing mean`: Replaces missing values with the mean of the respective column.
+
+#### Splitting Data
+
+```plaintext
+split ratio=0.8 shuffle
+split ratio=0.7 noshuffle
+```
+
+**Explanation**:
+- `split ratio=0.8 shuffle`: Splits the data into 80% training and 20% testing with shuffling.
+- `split ratio=0.7 noshuffle`: Splits the data into 70% training and 30% testing without shuffling.
+
+#### Normalizing Data
+
+```plaintext
+normalize ["LotArea", "GrLivArea"] method=minmax
+normalize ["TotalBsmtSF"] method=zscore
+```
+
+**Explanation**:
+- `normalize ["LotArea", "GrLivArea"] method=minmax`: Scales specified columns to a 0–1 range.
+- `normalize ["TotalBsmtSF"] method=zscore`: Scales the specified column using z-score normalization.
+
+---
 
 ## Testing Suite
 
