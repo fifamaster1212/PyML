@@ -88,7 +88,7 @@ You can run PyML commands interactively using the provided REPL (`main()` functi
 
 **Interactive REPL**:
 ```bash
-python3 your_script.py
+python3 PyMLinterpreter.py
 ```
 
 When the REPL starts, type commands one at a time. For example:
