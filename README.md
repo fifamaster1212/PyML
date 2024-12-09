@@ -95,7 +95,7 @@ python3 PyMLinterpreter.py
 When the REPL starts, type commands one at a time. For example:
 
 ```plaintext
->>> load "data.csv"
+>>> load "housing_data.csv"
 >>> target "SalePrice"
 >>> features ["LotArea", "OverallQual", "YearBuilt"]
 >>> split ratio=0.8 shuffle
@@ -227,7 +227,7 @@ PyML includes a `unittest`-based testing suite that verifies functionality for l
 **Running Tests**:
 
 ```bash
-python3 -m unittest discover -s tests
+python3 -m unittest tests.py 
 ```
 
 If all tests pass, you can be confident that PyML’s core functionality is working as intended.
