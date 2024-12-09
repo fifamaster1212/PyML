@@ -1,7 +1,7 @@
 
 # PyML | Domain-Specific Language for Machine Learning
 
-PyML is a domain-specific language (DSL) designed to simplify common machine learning workflows. Built on top of Python, pandas, scikit-learn, and matplotlib, PyML aims to provide data scientists and analysts with an intuitive language for tasks such as loading data, preprocessing, training models, evaluating performance, and visualizing results.
+PyML is a domain-specific language (DSL) designed to simplify common machine learning workflows. Built on top of Python, pandas, scikit-learn, and matplotlib, PyML aims to provide data scientists and analysts with an intuitive language for tasks such as loading data, preprocessing, training models, evaluating performance, and visualizing results. We use a sample dataset from [kaggle.com](#https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) in the examples below.
 
 ## Table of Contents
 
