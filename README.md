@@ -230,8 +230,6 @@ PyML includes a `unittest`-based testing suite that verifies functionality for l
 python3 -m unittest tests.py 
 ```
 
-If all tests pass, you can be confident that PyML’s core functionality is working as intended.
-
 ## Potential Future Additions
 
 **Extended Model Support**:
@@ -250,5 +248,3 @@ If all tests pass, you can be confident that PyML’s core functionality is work
 - Provide more descriptive error messages and logging for easier debugging.
 
 ---
-
-PyML aims to simplify common ML tasks so you can focus on analysis rather than boilerplate code. With its DSL-like syntax and integration with popular Python libraries, PyML makes it easy to go from dataset to model in just a few lines of code.
