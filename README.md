@@ -3,6 +3,8 @@
 
 PyML is a domain-specific language (DSL) designed to simplify common machine learning workflows. Built on top of Python, pandas, scikit-learn, and matplotlib, PyML aims to provide data scientists and analysts with an intuitive language for tasks such as loading data, preprocessing, training models, evaluating performance, and visualizing results. We use a sample dataset from [kaggle.com](#https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) in the examples below.
 
+For a practical example, you can use the dataset from the [House Prices - Advanced Regression Techniques competition on Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data).
+
 ## Table of Contents
 
 - [Introduction](#introduction)
