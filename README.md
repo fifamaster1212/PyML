@@ -72,7 +72,7 @@ feature "NewFeature" = "col1 + col2"  # Add a derived feature
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/pyml.git
+   [git clone https://github.com/your-username/pyml.git](https://github.com/fifamaster1212/PyML.git)
    ```
 
 2. **Install Dependencies**:
